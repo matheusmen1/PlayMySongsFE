@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <title>Play My Songs</title>
+    <script src="indexController.js"></script>
+</head>
+<body class="cadbody">
+    <header class="header-preto">
+        <img src="logo.png" alt="Logo" class="logo-header">
+        <h2>Cadastrar Músicas</h2>
+    </header>
+    <div class="paragrafo-esquerdo"> 
+        <h2 class="label"> Play My Songs</h2>
+        <h4><a href="index.html">Voltar</a></h4>
+    </div>
+    
+    <div class="container-central">
+        <form class="form-musica" method="post" id="fmusica" enctype="multipart/form-data">
+            <div class="campo">
+                <label for="titulo" class="label">Nome da Música</label>
+                <input type="text" class="input-texto" name="titulo" id="titulo" required>
+            </div>
+            <div class="campo">
+                <label for="artista" class="label">Nome do Artista</label>
+                <input type="text" class="input-texto" name="artista" id="artista"  required>
+            </div>
+            <div class="campo">
+                <label for="estilo" class="label">Estilo</label>
+                <input type="text" class="input-texto" name="estilo" id="estilo" required>
+            </div>
+            <div class="campo">
+                <label for="foto" class="label">Arquivo de Música</label>
+                <input type="file" class="input-arquivo" name="foto" id="foto" required>
+            </div>
+            <button  type="button" onclick="validarCampos()" class="botao-enviar">Enviar</button> 
+            
+        </form>
+       
+    </div>
+   
+    <footer class="footer-preto">
+        <p>&copy; MatheusM</p>
+    </footer>
+    
+</body>
+</html>

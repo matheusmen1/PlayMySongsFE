@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Play My Songs</title>
+    <script src="indexController.js"></script>
+</head>
+<body onload="buscarMusica()">
+    <header class="header-preto">
+        <img src="logo.png" alt="Logo" class="logo-header">
+        <h2>Menu Principal</h2>
+    </header>
+    <div class="paragrafo-esquerdo">
+        <h2 class="label"> Play My Songs</h2>
+        <h4><a href="cadMusica.html">Você pode enviar músicas aqui</a></h4>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="filtro" class="search-input" placeholder="Informe a música, cantor ou estilo">
+        <button onclick="buscarMusica()" class="search-button">Pesquisar</button>
+    </div>
+    <div class="resultado">
+        <p id="resultado"></p>
+    </div>
+    
+   
+    <footer class="footer-preto">
+        <p>&copy; MatheusM</p>
+    </footer>
+
+</body>
+</html>
+

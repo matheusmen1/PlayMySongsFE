@@ -1,0 +1,152 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.cadbody{
+    overflow: hidden; 
+}
+
+.header-preto {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;     
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+
+    
+}
+.logo-header {
+    height: 60px;        
+    left: 20px;   
+    position: absolute;
+}
+.container-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; 
+}
+
+
+.form-musica {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+  
+}
+
+.input-texto, .input-arquivo {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.botao-enviar {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao-enviar:hover {
+    background-color: #0056b3;
+}
+.paragrafo-esquerdo {
+    margin: 15px 20px;    
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;        
+}
+.footer-preto {
+    background-color: #000;     
+    color: #fff;                
+    text-align: center;         
+    padding: 10px 0;             
+    position: fixed;
+    bottom: 0;                  
+    width: 100%;                
+    font-size: 14px;         
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline; 
+}
+
+a:active {
+    color: red;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.search-input {
+    width: 900px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-button:hover {
+    background-color: #555;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+audio {
+    border: 2px solid #e0e0e0; 
+    border-radius: 15px; 
+    padding: 5px; 
+    width: 1020px;
+    margin-bottom: 10px;  
+}
