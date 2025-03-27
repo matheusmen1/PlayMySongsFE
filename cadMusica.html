@@ -29,8 +29,18 @@
             </div>
             <div class="campo">
                 <label for="estilo" class="label">Estilo</label>
-                <input type="text" class="input-texto" name="estilo" id="estilo" required>
+                <select name="estilo" id="estilo" class="input-texto" required>
+                    <option value="">Selecione o estilo</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="MPB">MPB</option>
+                    <option value="Eletrônica">Eletrônica</option>
+                    <option value="Hip-Hop">Hip-Hop</option>
+                    <option value="Clássica">Clássica</option>
+                </select>
             </div>
+            
             <div class="campo">
                 <label for="foto" class="label">Arquivo de Música</label>
                 <input type="file" class="input-arquivo" name="foto" id="foto" required>

@@ -62,7 +62,7 @@ function validarCampos()
         if (extensaoArquivo(foto))
         {
           cadMusica();
-          alert("Música Cadastrada Com Sucesso")
+          //alert("Música Cadastrada Com Sucesso")
         }
         else
         {
@@ -92,7 +92,7 @@ function cadMusica()
     })
     .then((response) => response.json())
     .then((json) => {
-        //alert("Resposta do servidor: " + JSON.stringify(json));
+        alert("Musica Cadastrada Com Sucesso\n"+ json.fileName);
         fmusica.reset(); 
     })
     .catch((error) => console.error("Erro ao enviar dados:", error));
