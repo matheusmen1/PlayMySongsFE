@@ -112,6 +112,8 @@ a:active {
 }
 
 .search-input {
+
+    
     width: 900px;
     padding: 10px;
     border: 2px solid #ccc;
@@ -119,6 +121,8 @@ a:active {
     font-size: 16px;
     margin-right: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    
 }
 
 .search-button {
